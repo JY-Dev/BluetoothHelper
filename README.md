@@ -32,7 +32,7 @@ Edit `app/build.gradle` like below.
 
 ## How To Use
 
-## At First you add Permission AndroidManifest
+#### At First you add Permission AndroidManifest
 ```
 
 <uses-permission android:name="android.permission.BLUETOOTH" />
