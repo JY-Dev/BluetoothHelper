@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-
+apply plugin: 'com.github.dcendents.android-maven'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
@@ -23,7 +23,7 @@ android {
         }
     }
 }
-
+group = 'com.github.JY-Dev'
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"

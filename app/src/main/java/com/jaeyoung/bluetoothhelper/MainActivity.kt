@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("MainActivity","Finish Device Scan")
             }
         })
-        bluetoothScan.stopScan()
+        bluetoothScan.settingBleGps()
         val bluetoothConnect = BluetoothConnect(this,java.util.UUID.fromString("00001101-0000-1000-8000-00805f9b34fb"),object : BluetoothConnectCallback {
             override fun failConnectDevice() {
                 Log.d("MainActivity","Fail Connect Device")
