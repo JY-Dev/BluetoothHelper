@@ -27,7 +27,7 @@ allprojects {
 Edit `app/build.gradle` like below.
 
 ```gradle
-   implementation 'com.github.JY-Dev:ColorCodeDialog:v1.0.1'
+   implementation 'com.github.JY-Dev:android-BluetoothHelper-Bluetooth-kit:v1.0.1'
 ```
 
 ## How To Use
