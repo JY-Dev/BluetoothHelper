@@ -3,7 +3,7 @@ It's helpful for your bluetooth Scan and Connect. In Android studio
 
 ### Library Version
 
-Version v1.0.2
+Version v1.0.1
 
 ### minSdkVersion
 
