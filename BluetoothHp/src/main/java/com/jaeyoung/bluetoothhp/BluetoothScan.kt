@@ -101,7 +101,7 @@ class BluetoothScan(context: Context,bluetoothScanCallback: BluetoothScanCallbac
     fun stopScan(){
         Log.d("BLE Search", "Stop Scan")
         mBtAdapter.cancelDiscovery()
-        mActivity.isDestroyed
+        mContext.unregisterReceiver(mScanReceiver)
     }
 
 }
